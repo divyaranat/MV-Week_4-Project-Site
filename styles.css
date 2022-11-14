@@ -1,13 +1,18 @@
 body {
     margin: auto;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("goat.jpg");
+    background-size: cover;
 }
 
 #header {
     display: flex;
     justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
     background-color: #1f2937;
+    border-bottom: 3px solid #dabe20
 }
 
 h1 {
@@ -15,17 +20,56 @@ h1 {
     color: #f9faf8;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+}
+
 ul {
+    display: flex;
+    gap: 2em;
+    list-style-type: none;
     padding: 0;
-    width: 10em;
+    margin: 0;
 }
 
-li {
-    display: inline;
-    list-style: none;
-}
-
-a {
+li a {
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #dabe20;
+}
+
+#out-main {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1rem;
+    background-color: #1944809b;
+    border: solid #dabe20;
+    border-radius: 10px;
+    height: min-content;
+    margin-bottom: 20%;
+}
+
+p {
+    font-size: x-large;
+    margin: 0;
+    color: #f9faf8;
+}
+
+#unknown-p {
+    margin-left: auto;
+    color: #f9faf8
 }
