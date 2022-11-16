@@ -1,7 +1,7 @@
 body {
     margin: auto;
-    height: 100vh;
-    width: 100vw;
+    background-image: url("goat.jpg");
+    background-size: cover;
 
 }
 
@@ -50,8 +50,7 @@ li a:hover {
     height: 100%;
     display: flex;
     align-items: flex-;
-    background-image: url("goat.jpg");
-    background-size: cover;
+
     justify-content: center;
 }
 
@@ -116,4 +115,13 @@ h2 {
     font-size: 24px;
     color: #f9faf8;
     text-align: center;
+}
+
+.rick {
+    text-decoration: none;
+    color:#3882f6
+}
+
+.rick:hover {
+    color: #dabe20;
 }
